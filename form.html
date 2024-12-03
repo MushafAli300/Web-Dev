@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="Meet2 (form).css" />
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+    <div class="container">
+      <p>Let us know how we can improve GDSC</p>
+      <form action="submit" class="form-container">
+        <div class="name">
+          <label for="name">* Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+
+        <div class="email">
+          <label for="email">* Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div class="age">
+          <label for="age">* Age</label>
+          <input type="number" name="age" id="age" />
+        </div>
+
+        <div class="role">
+          <label for="role">Role</label>
+          <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="recommend">
+          <!-- To make the radio buttons select only one of them for any value of any tag, use the same name for all of them so that they all can refer to one single tag or any variable (when used in JS) -->
+          <span
+            >How likely is it that you would recommend GDSC to a friend?</span
+          >
+          <div class="radios">
+            <div class="one">
+              <input
+                type="radio"
+                name="recommend"
+                id="definitely"
+                value="definitely"
+              />
+              <label for="definitely">Definitely</label>
+            </div>
+
+            <div class="two">
+              <input type="radio" name="recommend" id="maybe" value="maybe" />
+              <label for="maybe">Maybe</label>
+            </div>
+
+            <div class="three">
+              <input
+                type="radio"
+                name="recommend"
+                id="not-sure"
+                value="not-sure"
+              />
+              <label for="not-sure">Not Sure</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="what-you-like">
+          <label for="like">What do you like about GDSC the most?</label>
+          <select name="like" id="like">
+            <option value="">Select an option</option>
+            <option value="events">Events</option>
+            <option value="community">Community</option>
+            <option value="projects">Projects</option>
+          </select>
+        </div>
+
+        <div class="improve">
+          <span
+            >Things that shold be improved in GDSC (Check all that apply)</span
+          >
+
+          <div class="checkboxes">
+            <div class="check1">
+              <input type="checkbox" name="front-end" id="front-end" />
+              <label for="front-end">Front-end Projects</label>
+            </div>
+
+            <div class="check2">
+              <input type="checkbox" name="back-end" id="back-end" />
+              <label for="back-end">Back-end Projects</label>
+            </div>
+
+            <div class="check3">
+              <input
+                type="checkbox"
+                name="Data Visualization"
+                id="Data Visualization"
+              />
+              <label for="Data Visualization">Data Visualization</label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

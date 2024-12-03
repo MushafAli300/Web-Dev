@@ -1,0 +1,51 @@
+body {
+    background-color: #86b457;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  div {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .box1 {
+    background-color: red;
+  }
+  .box2 {
+    background-color: green;
+    top: 150px;
+  }
+  .box3 {
+    background-color: blue;
+    top: 300px;
+  }
+  .box4 {
+    background-color: yellow;
+    top: 150px;
+  }
+  .box5 {
+    background-color: rgb(25, 212, 109);
+  }
+  .box6 {
+    background-color: rgb(70, 40, 176);
+    top: 150px;
+  }
+  .box7 {
+    background-color: gray;
+    top: 300px;
+  }
+  .box8 {
+    background-color: brown;
+    top: 150px;
+  }
+  .box9 {
+    background-color: rgb(255, 0, 242);
+  }

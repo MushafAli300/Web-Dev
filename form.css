@@ -1,0 +1,86 @@
+* {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    /* background-color: red; */
+  }
+  
+  .container {
+    background-color: #72eba2;
+    padding: 20px;
+  }
+  
+  div {
+    margin: 10px 0;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  input,
+  select {
+    margin-left: 20px;
+  }
+  
+  .role {
+    position: relative;
+    left: -30px;
+  }
+  
+  .role select {
+    margin-left: 38px;
+    width: 100px;
+  }
+  
+  .age input {
+    margin-left: 33px;
+  }
+  
+  .recommend {
+    display: flex;
+    align-items: center;
+  }
+  
+  .recommend span,
+  .name label,
+  .email label,
+  .age label,
+  .what-you-like label,
+  .improve span {
+    width: 30%;
+  }
+  
+  .two {
+    margin-right: 20px;
+  }
+  .three {
+    margin-right: 4px;
+  }
+  
+  .what-you-like {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .improve {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkboxes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .what-you-like,
+  .recommend,
+  .improve {
+    position: relative;
+    left: 15%;
+  }
